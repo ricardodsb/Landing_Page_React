@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "./body.jsx";
+import { Card } from "./card.jsx";
 
 export const Cards = () => {
 	return (
