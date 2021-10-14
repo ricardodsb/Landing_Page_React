@@ -4,6 +4,7 @@ import { Jumbo } from "./jumbotron.jsx";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import { Card } from "./cards.jsx";
 
 //create your first component
 export const Home = () => {
@@ -12,6 +13,7 @@ export const Home = () => {
 			<div className="container">
 				<NavBar />
 				<Jumbo />
+				<Card />
 			</div>
 
 			<p className="text-center bg-secondary text-white h-25 fixex-bottom p-3 mt-md-4 mb-0">
