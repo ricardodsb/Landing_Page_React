@@ -1,20 +1,20 @@
 import React from "react";
-import { Content } from "./body.jsx";
+import { Card } from "./body.jsx";
 
-export const Card = () => {
+export const Cards = () => {
 	return (
 		<div className="row">
 			<div className="col">
-				<Content />
+				<Card />
 			</div>
 			<div className="col">
-				<Content />
+				<Card />
 			</div>
 			<div className="col">
-				<Content />
+				<Card />
 			</div>
 			<div className="col">
-				<Content />
+				<Card />
 			</div>
 		</div>
 	);
