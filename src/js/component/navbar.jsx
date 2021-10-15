@@ -2,8 +2,14 @@ import React from "react";
 
 export const NavBar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top justify-content-between">
-			<a className="navbar-brand" href="#">
+		<nav className="navbar navbar-expand-lg navbar-dark bg-secondary sticky-top">
+			<a
+				className="navbar-brand"
+				style={{
+					width: "80%",
+					marginLeft: "5px"
+				}}
+				href="#">
 				Start Bootstrap
 			</a>
 			<button
