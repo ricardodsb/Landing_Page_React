@@ -8,17 +8,18 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 export const Home = () => {
 	return (
-		<div className="container-fluid">
-			<div className="container">
-				<NavBar />
-				<Jumbo />
-				<Cards />
+		<>
+			<NavBar />
+			<div className="container-fluid">
+				<div className="container">
+					<Jumbo />
+					<Cards />
+				</div>
 			</div>
-
-			<p className="text-center bg-secondary text-white h-25 fixex-bottom p-3 mt-md-4 mb-0">
+			<p className="text-center bg-secondary text-white h-25 fixex-bottom p-3 mt-md-4 mb-0 sticky-bottom">
 				Made with love by Ricardo DS
 			</p>
-		</div>
+		</>
 	);
 };
 
