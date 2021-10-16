@@ -16,9 +16,7 @@ export const Home = () => {
 					<Cards />
 				</div>
 			</div>
-			<p
-				className="text-center bg-secondary text-white h-25 fixex-bottom p-3 mt-md-4 mb-0"
-				style={{ vh: "100%" }}>
+			<p className="text-center bg-secondary text-white h-25 sticky-bottom p-3 mt-md-4 mb-0">
 				Made with love by Ricardo DS
 			</p>
 		</>
