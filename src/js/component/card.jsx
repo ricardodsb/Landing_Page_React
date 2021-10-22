@@ -4,7 +4,7 @@ export const Card = () => {
 	return (
 		<div
 			className="card text-center mb-md-0 mb-4"
-			style={{ marginTop: "10%" }}>
+			style={{ marginTop: "20%" }}>
 			<img
 				src="https://digitalfuturesociety.com/app/uploads/2021/06/BDT_logo_becas_geeks_v2.jpg"
 				className="card-img-top"

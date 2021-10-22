@@ -12,7 +12,7 @@ export const Home = () => {
 		<>
 			<NavBar />
 			<div className="container-fluid p-0">
-				<div className="container">
+				<div id="page-container" className="container">
 					<Jumbo />
 					<Cards />
 				</div>
