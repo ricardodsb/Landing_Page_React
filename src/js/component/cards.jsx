@@ -1,9 +1,10 @@
+import { auto } from "@popperjs/core";
 import React from "react";
 import { Card } from "./card.jsx";
 
 export const Cards = () => {
 	return (
-		<div className="row">
+		<div className="row ">
 			<div className="col">
 				<Card />
 			</div>

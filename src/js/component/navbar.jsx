@@ -6,7 +6,7 @@ export const NavBar = () => {
 			<a
 				className="navbar-brand"
 				style={{
-					width: "80%",
+					width: "90%",
 					marginLeft: "5px"
 				}}
 				href="#">

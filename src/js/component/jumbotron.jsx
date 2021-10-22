@@ -2,7 +2,12 @@ import React from "react";
 
 export const Jumbo = () => {
 	return (
-		<div className="jumbotron" style={{ backgroundColor: "gainsboro" }}>
+		<div
+			className="jumbotron"
+			style={{
+				backgroundColor: "gainsboro",
+				padding: "40px"
+			}}>
 			<h1 className="display-4">A Warm Welcome!</h1>
 			<p className="lead">
 				This is a simple hero unit, a simple jumbotron-style component
